@@ -13,7 +13,13 @@ import static org.junit.Assert.*;
  */
 public class L2022112946_8_Test {
 
+    // 定义 Solution8 的实例，用于测试
     private Solution8 solution;
+
+    /**
+     * 测试前的初始化工作，每个 @Test 方法运行前都会调用此方法。
+     * 初始化 Solution8 对象。
+     */
 
     @Before
     public void setUp() {
